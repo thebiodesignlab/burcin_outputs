@@ -1,7 +1,7 @@
 from pymol import cmd, stored, math
-#import sys
-#sys.path.append('/Users/acarb/Dropbox (The Francis Crick)/DeBenedictisE/burcin/crick_biodesign/postdoc')
-#import spectrumany as sp
+import sys
+sys.path.append('/Users/acarb/Dropbox (The Francis Crick)/DeBenedictisE/burcin/crick_biodesign/postdoc/gitacarbn')
+import spectrumany as sp
 
 	
 def loadBfacts (mol,startaa=1,source="newBfactors.txt", visual="Y"):
@@ -34,9 +34,10 @@ def loadBfacts (mol,startaa=1,source="newBfactors.txt", visual="Y"):
 		#cmd.set("cartoon_putty_scale_max", max(bfacts),obj)
 		#cmd.set("cartoon_putty_transform", 0,obj)
 		#cmd.set("cartoon_putty_radius", 0.2,obj)
-		cmd.spectrum("b","rainbow", "%s and n. CA " %mol,minimum=0, maximum=0.1)
-		#sp.spectrumany("b","green white purple", "(all)",minimum=-5, maximum=5) #color structure
-		cmd.ramp_new("count", obj, [-1, 1], 'rainbow') #color colorbar
+		#cmd.spectrum("b","rainbow", "%s and n. CA " %mol,minimum=0, maximum=0.1)
+		sp.spectrumany("b","purple white green", "(all)",minimum=-5, maximum=5) #color structure
+		#cmd.ramp_new("count", obj, [-5, 5], 'rainbow') #color colorbar
+		cmd.ramp_new("count", obj, [-5, 0, 5], ['purple','white','green']) #color the colorbar accordingly
 		cmd.recolor()
 
 cmd.extend("loadBfacts", loadBfacts);
