@@ -1,0 +1,1 @@
+matlab -nojvm -nodisplay -r 'GNM("'"1N3X"'",1,10,"'"A"'")' > GNM.log
