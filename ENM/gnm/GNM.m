@@ -1,6 +1,6 @@
 function [MSF,resnum]=GNM(fname1,mode_beg,mode_max,chain)
 
-rcut_gnm=10;
+rcut_gnm=7.3;
 % gamma constant
 ga=1;
 try
@@ -73,7 +73,8 @@ end
 	
 % gnmCfile = fopen('GNM_MSF','a');
 invcont=zeros(resnum,resnum);
-for kk=resnum-mode_max:resnum-mode_beg
+%for kk=resnum-mode_max:resnum-mode_beg
+   for kk=[resnum-mode_max resnum-mode_beg] 
     for j=1:resnum
         for i=1:resnum
             invcont(i,j)=invcont(i,j)+U(i,kk)*U(j,kk)/w(kk);
@@ -82,6 +83,7 @@ for kk=resnum-mode_max:resnum-mode_beg
 end
 
 MSF=diag(invcont);
+MSF=MSF./trapz(MSF);
 end
 
 
