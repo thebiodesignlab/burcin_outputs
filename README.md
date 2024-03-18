@@ -9,3 +9,5 @@ The following directories are included under this repository:
   4- T7RNAP_PMPNN: Bash scripts to perform ProteinMPNN using multiple conformations of T7RNAP.
 
   5- Microplatereader_template: Scripts to analyse the data from microplate reader. 
+
+  6- Other general structure processing scripts like for RMSD, alignment etc.
