@@ -1,3 +1,4 @@
+%% This code calculates cross-correlation of a protein using GNM.
 function [cross,resnum]=GNMcross(fname1,modeset,chain)
 
 rcut_gnm=7.3;
