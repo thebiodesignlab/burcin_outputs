@@ -1,1 +1,2 @@
+# you can run matlab on nemo as such:
 matlab -nojvm -nodisplay -r 'GNM("'"1N3X"'",1,10,"'"A"'")' > GNM.log
