@@ -1,4 +1,4 @@
-%% ANM code by BurÁin Acar. Given a PDB file named fname1, this code
+%% ANM code by Burcin Acar. Given a PDB file named fname1, this code
 % calculates mode_max number of slow ANM modes starting from the 1st.
 % It outputs MSFs of each individual mode.
 function [nanmcross]=anmcross(fname1,mode_max,chain)
@@ -25,7 +25,7 @@ end
 
 
 %  general
-resnum=size(x,2); % D›KKAT!!!!!!!
+resnum=size(x,2); 
 anmcross=zeros(resnum,resnum);
 nanmcross=anmcross;
 rcut_anm= 13;
