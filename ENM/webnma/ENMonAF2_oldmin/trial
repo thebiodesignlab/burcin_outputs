@@ -1,7 +1,0 @@
-#!/bin/bash
-
-ml AlphaFold/2.2.2-foss-2021a-CUDA-11.3.1
-
-file="fusion0/fusion0.fasta"
-folder="fusion0"
-alphafold --fasta_paths=/camp/lab/debenedictise/home/users/acarb/MBP_EGFP_CPU/oldAF2/$file --run_relax=false --max_template_date=2022-01-01 --model_preset=monomer --output_dir=/camp/lab/debenedictise/home/users/acarb/MBP_EGFP_CPU/oldAF2/$folder
