@@ -1,4 +1,7 @@
 #!/bin/bash
+# This script runs AF2 as a batch job using a GPU and gets 
+# folder name from array number given by exec.sh so that
+# the AF2 precictions are automated for all fusion sequences.
 
 #SBATCH --partition=gpu
 #SBATCH --job-name=TMBPnewAF2
