@@ -1,5 +1,5 @@
 #!/bin/bash
-# Simple SLURM sbatch example
+# Simple SLURM sbatch file to run webnma on AF2 structures
 #SBATCH --job-name=NMA_oldmin_R0
 #SBATCH --ntasks=1
 #SBATCH --time=3-00:00:0
