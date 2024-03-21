@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script runs AF2 as a batch job using a GPU and gets 
+# This script runs AF2 as a batch job using GPU and gets 
 # folder name from array number given by exec.sh so that
 # the AF2 precictions are automated for all fusion sequences.
 
