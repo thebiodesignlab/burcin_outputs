@@ -1,1 +1,0 @@
-[MSF,resnum]=GNM('3SPI_tetramer.pdb',1,10,'A')
