@@ -1,3 +1,4 @@
+%% This code is used to find hinge residues from GNM cross-correlations.
 clear all; close all; clc;
 fname1='1OMP';
 chain='A';
