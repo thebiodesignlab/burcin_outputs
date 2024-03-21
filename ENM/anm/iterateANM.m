@@ -1,5 +1,5 @@
 % This code looks for allostery as coupling between different functional sites, defined by the cross-correlation
-% derived from ANM usinf anmcross script.
+% derived from ANM using anmcross script.
 
 clear all; clc; close all;
 
