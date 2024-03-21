@@ -13,7 +13,7 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=0
 #SBATCH --time=21-0:0:0
-#SBATCH --mail-user=brcnacar@gmail.com
+#SBATCH --mail-user=burcin.acar@crick.ac.uk
 #SBATCH --mail-type=BEGIN,END,FAIL,ARRAY_TASKS
 
 ml purge > /dev/null 2>&1
