@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Define an array of NMR files
+# Define an array of NMR files to run webnma
 # NMRfiles=('1A03' '2LGV' '7UO6' '7R0R' '2KB1' '7VIL')
 NMRfiles=('8F4V' '7ZE0' '4TRX' '1CIS' '2ABD')
 # Loop through each NMR file in the array
