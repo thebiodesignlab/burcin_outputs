@@ -1,3 +1,9 @@
+% This code performs GNM for a given protein structure and generates MSF.
+% fname1: PDB name
+% mode_beg and mode_max are used to give a range
+% mode_beg: 1<=mode_beg<residue_number
+% mode_max: 1<=mode_beg<residue_number
+% chain: which chain to model
 function [MSF,resnum]=GNM(fname1,mode_beg,mode_max,chain)
 
 rcut_gnm=7.3;
