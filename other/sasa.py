@@ -1,3 +1,4 @@
+# solvent accessible surface area
 import __main__
 __main__.pymol_argv = ['pymol','-qc']
 import pymol
