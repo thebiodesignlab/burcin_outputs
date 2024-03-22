@@ -1,3 +1,4 @@
+% MATLAB code to get alignment score between different structures
 clear all
 close all
 % fname1='1OMP';
