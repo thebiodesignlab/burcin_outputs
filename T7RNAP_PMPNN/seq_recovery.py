@@ -1,3 +1,4 @@
+# This code calculates sequence recoveries for PMPNN generated sequences.
 import re
 import matplotlib.pyplot as plt
 import numpy as np
