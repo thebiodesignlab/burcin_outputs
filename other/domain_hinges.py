@@ -1,3 +1,4 @@
+% pymol script to show hinge residues on protein
 from pymol import cmd, stored, math
 import sys
 sys.path.append('/Users/acarb/Dropbox (The Francis Crick)/DeBenedictisE/burcin/crick_biodesign/postdoc/gitacarbn')
