@@ -1,3 +1,5 @@
+# This code plots the amino acid probabilities for generated sequences.
+
 #import the necessary packages to read and plot data
 import numpy as np
 import plotly.express as px
