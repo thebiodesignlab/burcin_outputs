@@ -1,3 +1,4 @@
+# calculates rmsd using pymol
 import sys
 from pymol import cmd
 
