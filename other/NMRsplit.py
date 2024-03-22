@@ -1,3 +1,4 @@
+#Using pymol to split different NMR states
 from pymol import cmd
 import os
 #NMRfiles=['1A03','2LGV','7UO6','7R0R','2KB1','7VIL']
