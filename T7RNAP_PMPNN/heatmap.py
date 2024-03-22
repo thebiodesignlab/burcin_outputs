@@ -1,3 +1,4 @@
+# This code creates a heatmap from pairwise sequence similarities (extract_data.txt). 
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
