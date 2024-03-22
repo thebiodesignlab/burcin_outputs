@@ -1,4 +1,5 @@
 #!/bin/bash
+# To run ProteinMPNN use this script.
 #SBATCH -p gpu
 #SBATCH --job-name=1CEZ
 #SBATCH --mem=32g
