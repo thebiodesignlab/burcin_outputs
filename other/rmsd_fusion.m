@@ -1,3 +1,4 @@
+%% MATLAB code to calculate RMSD of AF2 fusion structures.
 clear all; clc; close all;
 %% Preparing MBP component(PDB2)
 PDB2=pdbread('/Volumes/lab-debenedictise/home/users/acarb/230424_onlyMBP/MBP/ranked_0.pdb');
