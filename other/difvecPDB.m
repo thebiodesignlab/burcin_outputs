@@ -1,3 +1,6 @@
+%% This code compares GNM modes with the dif vector between two states of a protein
+% and plot the overlaps.
+%%
 function [resnum,ndvs,dvs,MSF1f,MSF2f]=difvecPDB(fname1,chain1,fname2,chain2)
 % fnames 1 and 2 are PDB codes
 % and chains 1 and 2 are the corresponding protein chains
