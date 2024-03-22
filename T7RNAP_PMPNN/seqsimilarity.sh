@@ -1,3 +1,4 @@
+# This code extracts the similarity scores.
 #!/bin/bash
 address="/Volumes/lab-debenedictise/home/users/acarb/T7RNAP_PMPNN/230720_multi_pmpnn_4RNP_scores_probs_corrected/outputs/seqs/pairs/*"
 
