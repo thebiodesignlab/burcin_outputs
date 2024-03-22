@@ -1,3 +1,4 @@
+# This code plots the amino acid probabilities for generated sequences.
 def clear_all():
     # Get a list of all variables in the global scope
     globals_to_clear = [var for var in globals().copy() if var[0] != "_"]
