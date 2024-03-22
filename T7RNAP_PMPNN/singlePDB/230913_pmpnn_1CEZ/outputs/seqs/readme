@@ -1,2 +1,6 @@
 These scripts are for calculation of pairwise sequence similarity
 among PMPNN generated sequences.
+
+1- Run format_allseq.sh to format the PMPNN sequences.
+2- Run exec.sh that calls pairwise.sh
+3- If there was a problem with any batch run, call compare4missing.sh to rerun the missing sequences.
