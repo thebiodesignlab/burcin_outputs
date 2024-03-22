@@ -1,3 +1,5 @@
+# Instead of a 2D heatmap this script calculates for each generated sequence the average
+# of sequence similarity with the rest of the sequences.
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
