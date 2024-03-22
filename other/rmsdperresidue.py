@@ -1,3 +1,4 @@
+# calculates RMSD per residue
 #load library
 from pymol import cmd, stored
 import sys
